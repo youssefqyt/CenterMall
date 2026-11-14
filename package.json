@@ -1,0 +1,19 @@
+{
+  "name": "center-mall",
+  "version": "1.0.0",
+  "description": "Center MALL full-stack commercial center application (Backend & Mobile Expo)",
+  "scripts": {
+    "start": "node start-all.js",
+    "backend": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "mobile": "cd mobile && npx expo start",
+    "mobile:web": "cd mobile && npx expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.19.2",
+    "@react-navigation/native": "^7.4.1",
+    "@react-navigation/native-stack": "^7.19.2",
+    "axios": "^1.20.0",
+    "expo-secure-store": "^57.0.4"
+  }
+}
