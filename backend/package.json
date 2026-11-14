@@ -1,4 +1,4 @@
-7{
+{
   "name": "backend",
   "version": "1.0.0",
   "description": "Center MALL Backend API with Express, JWT, PostgreSQL/JSON store and Socket.io",
